@@ -1,28 +1,36 @@
 payload:
-  - DOMAIN-SUFFIX,mycard520.com.tw
-  - DOMAIN-SUFFIX,naver.com
-  - DOMAIN,cafe.naver.com
-  - DOMAIN-SUFFIX,kakao.com
-  - DOMAIN-SUFFIX,kakaocorp.com
-  - DOMAIN-SUFFIX,kakaocorp.net
-  - DOMAIN-SUFFIX,kakaocorp.cn
-  - DOMAIN-SUFFIX,kakaocdn.net
-  - DOMAIN,developers.kakao.com
-  - DOMAIN,t1.daumcdn.net
-  - DOMAIN,t1.kakaocdn.net
-  - DOMAIN,p.kakaocdn.net
-  - DOMAIN,stat.tiara.kakaocorp.com
-  - DOMAIN,katalk.kakao.com
-  - DOMAIN,talk-pilsner.kakao.com
+  # 韩国支付与金融平台
   - DOMAIN-SUFFIX,settlebank.co.kr
   - DOMAIN,nspay.settlebank.co.kr
   - DOMAIN-SUFFIX,payermax.com
   - DOMAIN,passport.payermax.com
+  - DOMAIN,merchant.enioypayment.com
+
+  # 游戏充值与周边平台
+  - DOMAIN-SUFFIX,mycard520.com.tw
+  - DOMAIN,bargain.mycard520.com.tw
+  - DOMAIN,image.mycard520.com
   - DOMAIN-SUFFIX,gashplus.com
   - DOMAIN,msc.gashplus.com
-  - DOMAIN,image.mycard520.com
-  - DOMAIN,bargain.mycard520.com
-  - DOMAIN,merchant.enjoypayment.com
+
+  # Kakao 生态系统
+  - DOMAIN-SUFFIX,kakao.com
+  - DOMAIN-SUFFIX,kakaocorp.cn
+  - DOMAIN-SUFFIX,kakaocorp.net
+  - DOMAIN-SUFFIX,kakaocorp.com
+  - DOMAIN-SUFFIX,kakaocdn.net
+  - DOMAIN,developers.kakao.com
+  - DOMAIN,katalk.kakao.com
+  - DOMAIN,talk-pilsner.kakao.com
+  - DOMAIN,t1.daumcdn.net
+  - DOMAIN,t1.kakaocdn.net
+  - DOMAIN,p.kakaocdn.net
+  - DOMAIN,stat.tiara.kakaocorp.com
+
+  # 其他工具与服务
+  - DOMAIN-SUFFIX,naver.com
+  - DOMAIN,cafe.naver.com
+  - DOMAIN,admob.com
+  - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN,dev.onestore.net
   - DOMAIN,console.travellet.net
-  - DOMAIN-SUFFIX,appsflyer.com
